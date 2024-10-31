@@ -1,0 +1,70 @@
+/* ------------------------------------------------------------ *\
+	General styles
+\* ------------------------------------------------------------ */
+
+.shortcode {
+	display: inline;
+}
+
+.margin {
+	margin-left: 30px !important;
+}
+
+.toplevel_page_reviews-up-admin img {
+	width: 22px;
+	height: 22px;
+}
+
+.input__wider {
+	min-width: 350px;
+}
+
+.video-container {
+	margin-top: 50px;
+	margin-left: 50px;
+	width: fit-content;
+	min-width: 800px;
+}
+
+.video-container h2 {
+	text-align: center;
+}
+
+.video-container .video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.video-container .video {
+	margin-top: 0;
+	margin-left: 0;
+	width: 100%;
+	position: relative;
+	padding-bottom: 56.25%;
+}
+
+@media(max-width: 1024px){
+	.video-container {
+		width: 100%; 
+		margin-left: 0;
+		margin-top: 0;
+		min-width: initial;
+	}
+
+	.form-table th {
+		width: initial;
+	}
+}
+
+@media(max-width: 780px){
+	input[type=text] {
+		margin-bottom: 20px;
+	}
+
+	.margin {
+		margin-left: 0 !important;
+	}
+}
